@@ -1,4 +1,5 @@
-cflags  := -std=gnu++17 -c -Wall
+ex      := main
+cflags  := -std=gnu++17 -c -Wall -Wextra
 ldflags :=
 libs    :=
 
@@ -6,11 +7,11 @@ libs    :=
 
 
 
-# main
-build: main
+# $(ex)
+build: $(ex)
 
-run: main
-	main < input
+run: $(ex)
+	$(ex) < input
 
 
 re: clean build
@@ -18,14 +19,14 @@ re: clean build
 rerun: clean run
 
 
-source_dirs     := . src
+source_dirs     := .
 search_wildcard := $(wildcard $(addsuffix /*.cpp,$(source_dirs)))
 object_files    := $(patsubst %.cpp,%.o,$(search_wildcard))
 object_files    := $(notdir $(object_files))
 object_files    := $(addprefix target/,$(object_files))
 VPATH           := $(source_dirs)
 
-main: ./target $(object_files)
+$(ex): ./target $(object_files)
 	g++ $(ldflags) -o $@ $(object_files) $(libs)
 
 ./target:
@@ -40,7 +41,10 @@ include $(wildcard target/*.d)
 
 # clean
 clean:
-	-rm target/*.o main
+	rm -rf target
+
+fclean: clean
+	rm -rf $(ex)
 
 
 
