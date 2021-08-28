@@ -1,0 +1,9 @@
+{
+	"source"     : "codeforces",
+	"edu"        : true,
+	"round"      : 110,
+	"div"        : 2,
+	"tags"       : [ "math", "number_theory", "sorting", "enumeration", "greedy" ],
+	"difficulty" : 900,
+	"date"       : "2021.06.08 19:19:42"
+}

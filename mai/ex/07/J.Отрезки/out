@@ -1,0 +1,21 @@
+-10 10
+empty->insert
+0 0
+erase: -10 10
+0 5
+It's hover->continue
+5 7
+5 8
+It's hover->continue
+4 6
+0 10
+It's hover->continue
+7 20
+
+END
+
+0 0
+4 6
+5 7
+7 20
+

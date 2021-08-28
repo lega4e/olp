@@ -1,0 +1,9 @@
+{
+	"source"     : "codeforces",
+	"edu"        : false,
+	"round"      : 693,
+	"div"        : 3,
+	"tags"       : [ "dp" ],
+	"difficulty" : 1100,
+	"date"       : "2021.01.27 23:11:49"
+}

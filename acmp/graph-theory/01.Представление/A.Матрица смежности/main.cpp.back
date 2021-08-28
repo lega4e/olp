@@ -1,0 +1,32 @@
+#include <iostream>
+
+#include "AdjacMatrix.cpp"
+#include "AdjacList.cpp"
+#include "functions.cpp"
+
+
+using namespace std;
+
+
+
+
+
+// main
+int main( int argc, char *argv[] )
+{
+	AdjacMatrix adjm;
+	AdjacList adjl;
+
+	adjm.scann(stdin);
+	conv(adjm, adjl);
+	adjl.print1(stdout);
+
+
+	return 0;
+}
+
+
+
+
+
+// end

@@ -1,0 +1,10 @@
+continue because D < 0
+Straight: (-0.707107, -0.707107) plus -0
+result: 2
+
+continue because D < 0
+Straight: (-1, 0) plus -0
+Unique point: 0, 0
+result: 4
+
+4

@@ -1,0 +1,9 @@
+{
+	"source"     : "codeforces",
+	"edu"        : false,
+	"round"      : 720,
+	"div"        : 2,
+	"tags"       : [ "math", "number_theory", "constructive" ],
+	"difficulty" : 1000,
+	"date"       : "2021.06.08 20:25:41"
+}

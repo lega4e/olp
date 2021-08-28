@@ -1,0 +1,9 @@
+{
+	"source"     : "codeforces",
+	"edu"        : false,
+	"round"      : 697,
+	"div"        : 3,
+	"tags"       : [ "comb", "graph", "math" ],
+	"difficulty" : 1400,
+	"date"       : "2021.01.27 23:12:37"
+}
