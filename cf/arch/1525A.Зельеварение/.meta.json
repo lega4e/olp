@@ -1,9 +1,14 @@
 {
-	"source"     : "codeforces",
-	"edu"        : true,
-	"round"      : 109,
-	"div"        : 2,
-	"tags"       : [ "math", "number_theory" ],
-	"difficulty" : 800,
-	"date"       : "2021.06.08 19:51:20"
+	"source": "codeforces",
+	"url": "https://codeforces.com/contest/1525/problem/A",
+	"name": "1525A.Potion-making",
+	"edu": true,
+	"round": 109,
+	"div": 2,
+	"tags": [
+		"math",
+		"number theory"
+	],
+	"difficulty": 800,
+	"date": "2021.06.08 19:51:20"
 }

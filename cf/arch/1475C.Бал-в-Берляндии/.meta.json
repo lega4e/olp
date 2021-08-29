@@ -1,9 +1,15 @@
 {
-	"source"     : "codeforces",
-	"edu"        : false,
-	"round"      : 697,
-	"div"        : 3,
-	"tags"       : [ "comb", "graph", "math" ],
-	"difficulty" : 1400,
-	"date"       : "2021.01.27 23:12:37"
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1475/C",
+	"name": "1475C.Ball-in-Berland",
+	"edu": false,
+	"round": 697,
+	"div": 3,
+	"tags": [
+		"combinatorics",
+		"graphs",
+		"math"
+	],
+	"difficulty": 1400,
+	"date": "2021.08.29 16:56:37"
 }

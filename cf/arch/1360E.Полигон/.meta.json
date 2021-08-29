@@ -1,9 +1,16 @@
 {
-	"source"     : "codeforces",
-	"edu"        : false,
-	"round"      : 644,
-	"div"        : 3,
-	"tags"       : [ "dp", "graph" ],
-	"difficulty" : 1300,
-	"date"       : "2021.01.28 02:34:06"
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1360/E",
+	"name": "1360E.Polygon",
+	"edu": false,
+	"round": 644,
+	"div": 3,
+	"tags": [
+		"dp",
+		"graphs",
+		"implementation",
+		"shortest paths"
+	],
+	"difficulty": 1300,
+	"date": "2021.01.28 02:34:06"
 }

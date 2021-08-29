@@ -1,9 +1,15 @@
 {
-	"source"     : "codeforces",
-	"edu"        : false,
-	"round"      : 603,
-	"div"        : 2,
-	"tags"       : [ "эквивалентность", "классы_эквивалентности" ],
-	"difficulty" : 1500,
-	"date"       : "2021.01.28 02:56:04"
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1263/D",
+	"name": "1263D.Secret-Passwords",
+	"edu": false,
+	"round": 603,
+	"div": 2,
+	"tags": [
+		"dfs and similar",
+		"dsu",
+		"graphs"
+	],
+	"difficulty": 1500,
+	"date": "2021.01.28 02:56:04"
 }

@@ -1,9 +1,14 @@
 {
-	"source"     : "codeforces",
-	"edu"        : false,
-	"round"      : -1,
-	"div"        : -1,
-	"tags"       : [ "graph" ],
-	"difficulty" : 1200,
-	"date"       : "2021.01.28 01:24:24"
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1428/B",
+	"name": "1428B.Belted-Rooms",
+	"edu": false,
+	"round": 1,
+	"div": 1,
+	"tags": [
+		"graphs",
+		"implementation"
+	],
+	"difficulty": 1200,
+	"date": "2021.01.28 01:24:24"
 }

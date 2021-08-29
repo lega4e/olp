@@ -1,9 +1,16 @@
 {
-	"source"     : "codeforces",
-	"edu"        : false,
-	"round"      : 739,
-	"div"        : 3,
-	"tags"       : [ "бинарный поиск", "реализация", "сортировки", "строки" ],
-	"difficulty" : 1800,
-	"date"       : "2021.08.29 14:38:14"
+	"source": "codeforces",
+	"url": "https://codeforces.com/contest/1560/problem/E",
+	"name": "1560E.Polycarp-and-String-Transformation",
+	"edu": false,
+	"round": 739,
+	"div": 3,
+	"tags": [
+		"binary search",
+		"implementation",
+		"sortings",
+		"strings"
+	],
+	"difficulty": 1800,
+	"date": "2021.08.29 14:38:14"
 }

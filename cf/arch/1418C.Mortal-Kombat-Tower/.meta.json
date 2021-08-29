@@ -1,9 +1,16 @@
 {
-	"source"     : "codeforces",
-	"edu"        : true,
-	"round"      : 95,
-	"div"        : 2,
-	"tags"       : [ "dp", "graph", "greedy" ],
-	"difficulty" : 1500,
-	"date"       : "2021.01.28 01:57:13"
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1418/C",
+	"name": "1418C.Mortal-Kombat-Tower",
+	"edu": true,
+	"round": 95,
+	"div": 2,
+	"tags": [
+		"dp",
+		"graphs",
+		"greedy",
+		"shortest paths"
+	],
+	"difficulty": 1500,
+	"date": "2021.01.28 01:57:13"
 }
