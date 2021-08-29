@@ -1,5 +1,6 @@
 #include <algorithm>
-#include <cstdio>
+#include <climits>
+#include <iostream>
 #include <vector>
 
 
@@ -9,101 +10,49 @@ using namespace std;
 
 
 
-
-// structs
-struct Link
-{
-	int b, e;
-
-	int distance(int *arr) const
-	{
-		return arr[e]-arr[b];
-	}
-};
-
-
-
-
-
-// objects
-constexpr char const *INPUT_FILE_NAME = "INPUT.TXT";
-constexpr char const *OUTPUT_FILE_NAME = "OUTPUT.TXT";
-
+// types
+typedef long long llong;
 
 
 
 
 
 // functions
+template<typename T>
+T next()
+{
+	T t;
+	cin >> t;
+	return t;
+}
+
+auto nxti = next<int>;
+auto nxtll = next<llong>;
+
 
 
 
 
 // main
-int main( int argc, char *argv[] )
+int main()
 {
-	int n;
-	int *arr;
-	vector<Link> links;
+	int const N = nxti();
+	vector<int> a(N), f(N), g(N);
 
+	for (int i = 0; i < N; ++i)
+		a[i] = nxti();
+	sort(a.begin(), a.end());
 
+	f[0] = 0;
+	g[0] = INT_MAX;
 
-	// input
+	for (int i = 1; i < N; ++i)
 	{
-		auto file = fopen(INPUT_FILE_NAME, "r");
-		fscanf(file, "%i", &n);
-		arr = new int[n];
-		for(auto *b = arr, *e = arr+n; b != e; ++b)
-		{
-			fscanf(file, "%i", b);
-		}
-		fclose(file);
-	}
-	sort(arr, arr+n);
-
-
-	// calculate
-	if(n > 1)
-		links.push_back({0, 1});
-	if(n > 2)
-		links.push_back({1, 2});
-	for(int i = 3; i < n; ++i)
-	{
-		if( links[ links.size()-2 ].e == i-2 )
-		{
-			links.pop_back();
-		}
-		else
-		{
-			if( 
-				links[ links.size()-2 ].distance(arr) <
-				links.back().distance(arr)
-			)
-			{
-				links.pop_back();
-				links.push_back({i-3, i-2});
-			}
-		}
-		links.push_back({i-1, i});
+		f[i] = g[i-1];
+		g[i] = min(f[i-1], g[i-1]) + a[i] - a[i-1];
 	}
 
-	int res = 0;
-	for(auto b = links.begin(), e = links.end(); b != e; ++b)
-	{
-		printf("<%i, %i>: %i\n", arr[b->b], arr[b->e], b->distance(arr));
-		res += b->distance(arr);
-	}
-
-
-	// output
-	{
-		auto file = fopen(OUTPUT_FILE_NAME, "w");
-		fprintf(file, "%i", res);
-		fflush(file);
-		fclose(file);
-	}
-
-
+	cout << g[N-1] << endl;
 
 
 	return 0;
