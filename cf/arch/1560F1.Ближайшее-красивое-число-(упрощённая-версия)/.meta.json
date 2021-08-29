@@ -1,0 +1,18 @@
+{
+	"source": "codeforces",
+	"url": "https://codeforces.com/contest/1560/problem/F1",
+	"name": "1560F1.Nearest-Beautiful-Number-(easy-version)",
+	"edu": false,
+	"round": 739,
+	"div": 3,
+	"tags": [
+		"binary search",
+		"bitmasks",
+		"brute force",
+		"constructive algorithms",
+		"dfs and similar",
+		"greedy"
+	],
+	"difficulty": 1900,
+	"date": "2021.08.29 17:15:41"
+}
