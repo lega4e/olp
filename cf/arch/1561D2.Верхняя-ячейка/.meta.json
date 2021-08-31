@@ -1,0 +1,16 @@
+{
+	"source": "codeforces",
+	"url": "https://codeforces.com/contest/1561/problem/D2",
+	"name": "1561D2.Up-the-Strip",
+	"edu": false,
+	"round": 740,
+	"div": 2,
+	"tags": [
+		"brute force",
+		"dp",
+		"math",
+		"number theory"
+	],
+	"difficulty": 1900,
+	"date": "2021.08.31 17:31:18"
+}
