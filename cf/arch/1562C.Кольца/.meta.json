@@ -1,0 +1,14 @@
+{
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1562/C",
+	"name": "1562C.Rings",
+	"edu": false,
+	"round": 741,
+	"div": 2,
+	"tags": [
+		"constructive algorithms",
+		"math"
+	],
+	"difficulty": 1500,
+	"date": "2021.08.31 15:53:21"
+}
