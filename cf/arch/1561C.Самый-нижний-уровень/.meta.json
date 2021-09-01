@@ -1,0 +1,15 @@
+{
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1561/C",
+	"name": "1561C.Deep-Down-Below",
+	"edu": false,
+	"round": 740,
+	"div": 2,
+	"tags": [
+		"binary search",
+		"greedy",
+		"sortings"
+	],
+	"difficulty": 1300,
+	"date": "2021.09.01 15:39:55"
+}
