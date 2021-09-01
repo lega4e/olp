@@ -1,0 +1,16 @@
+{
+	"source": "codeforces",
+	"url": "https://codeforces.com/problemset/problem/1562/E",
+	"name": "1562E.Rescue-Niwen!",
+	"edu": false,
+	"round": 741,
+	"div": 2,
+	"tags": [
+		"brute force",
+		"dp",
+		"string suffix structures",
+		"strings"
+	],
+	"difficulty": 2500,
+	"date": "2021.09.01 13:23:54"
+}
